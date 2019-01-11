@@ -1,0 +1,70 @@
+.banner-warp {
+	position: relative;
+	width: 720px;
+	height: 230px;
+	.banner-image-warp {
+		position: relative;
+		.banner-box {
+			width: 100%;
+			position: absolute;
+			left: 0;
+			right: 0;
+			img {
+				width: 100%;
+			}
+		}
+	}
+	.banner-list {
+		position: absolute;
+		bottom: 0px;
+		right: 50px;
+		li {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			margin: 7px 5px 0;
+			border: 0 none;
+			border-radius: 50%;
+			background: #333;
+			opacity: .6;
+			cursor: pointer;
+		}
+		.active {
+			background: #d26050;
+			border-color: #d26050;
+			opacity: 1;
+		}
+	}
+	.btn-arr {
+		div {
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			position: absolute;
+			padding: 0 15px;
+			display: inline-block;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			background: rgba(0, 0, 0, 0.5);
+			color: #fff;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+		.left {
+			left: 10px;
+		}
+		.right {
+			right: 10px;
+		}
+	}
+}
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+	opacity: 0;
+}

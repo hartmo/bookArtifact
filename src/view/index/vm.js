@@ -1,4 +1,6 @@
-import category from './components/category/index.vue';
+import categoryView from './components/category/index.vue';
+import bannerView from './components/banner/index.vue';
+import searchAllView from './components/searchAll/index.vue';
 export default {
 	name: 'index',
 	data() {
@@ -7,7 +9,9 @@ export default {
 		};
 	},
 	components: {
-		category,
+		categoryView,
+    bannerView,
+    searchAllView
 	},
 	mounted() {
 		this.wd();

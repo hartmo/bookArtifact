@@ -2,7 +2,6 @@ export default {
 	name: 'category',
 	data() {
 		return {
-			statistics: {},
 		};
 	},
 	props: {
@@ -11,6 +10,9 @@ export default {
 			default: () => {
 				return [];
 			},
+		},
+		icon: {
+			type: String,
 		},
 		title: {
 			type: String,

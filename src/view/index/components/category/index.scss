@@ -1,15 +1,3 @@
-h1,
-h2 {
-	font-weight: normal;
-}
-ul {
-	list-style-type: none;
-	padding: 0;
-}
-li {
-	display: inline-block;
-	margin: 0 10px;
-}
 .box {
 	width: 250px;
 	background-color: #fff;
@@ -21,35 +9,35 @@ li {
 	height: 50px;
 	line-height: 50px;
 	border-bottom: 1px solid rgb(238, 238, 238);
-}
-.box_title span {
-	display: inline-block;
-	height: 50px;
-	background-repeat: no-repeat;
-}
-.boy_box .box_title span:nth-child(1) {
-	background-image: url("../../../../assets/images/boy_icon.png");
-}
-.girl_box .box_title span:nth-child(1) {
-	background-image: url("../../../../assets/images/girl_icon.png");
-}
-.book_box .box_title span:nth-child(1) {
-	background-image: url("../../../../assets/images/book_icon.png");
-}
-.box_title span:nth-child(1) {
-	padding-left: 32px;
-	font-size: 18px;
-	background-size: 30px;
-	background-position: 0px 8px;
-}
-.box_title span:nth-child(2) {
-	float: right;
-	padding-right: 10px;
-	font-size: 12px;
-	color: rgb(207, 207, 207);
-	background-image: url("../../../../assets/images/more_icon.png");
-	background-size: 11px;
-	background-position: 22px 19px;
+	span {
+		display: inline-block;
+		height: 50px;
+		background-repeat: no-repeat;
+	}
+	.title {
+    padding-left: 32px;
+    font-size: 18px;
+    background-size: 25px;
+    background-position: 0px 12px;
+	}
+	.boy_box {
+		background-image: url("../../../../assets/images/boy_icon.png");
+	}
+	.girl_box {
+		background-image: url("../../../../assets/images/girl_icon.png");
+	}
+	.book_box {
+		background-image: url("../../../../assets/images/book_icon.png");
+	}
+	.more {
+		float: right;
+		padding-right: 10px;
+		font-size: 12px;
+		color: rgb(207, 207, 207);
+		background-image: url("../../../../assets/images/more_icon.png");
+		background-size: 11px;
+		background-position: 22px 19px;
+	}
 }
 .box_content {
 	width: 100%;
