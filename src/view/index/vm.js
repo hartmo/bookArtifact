@@ -18,7 +18,7 @@ export default {
 	},
 	methods: {
 		wd() {
-			this.$http.get('/cats/lv2/statistics').then((res) => {
+			this.$http.get('categories').then((res) => {
 				this.statistics = res.data;
 				this.statistics.press = this.statistics.press.slice(0, 9); // 切割数组，slice不会改变原来的数组
 				this.statistics.male = this.statistics.male.slice(0, 9); // 两个参数为开始和个数
